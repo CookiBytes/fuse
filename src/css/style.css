@@ -13,7 +13,12 @@ body {
   min-height: 100vh;
 }
 
+h1 {
+  font-weight: 300;
+}
+
 /* Transition
 .select:hover::after {
   transform: scale(1.5);
-} */
+}
+*/
