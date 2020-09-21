@@ -9,14 +9,20 @@ import "./css/select.css";
 
 function App() {
   const [inputText, setInputText] = useState("");
+  const [todos, setTodos] = useState([]);
 
   return (
     <React.Fragment>
       <header>
         <h1>to-do</h1>
       </header>
-      <Form />
-      <TodoList />
+      <Form
+        inputText={inputText}
+        todos={todos}
+        setTodos={setTodos}
+        setInputText={setInputText}
+      />
+      <TodoList setTodos={setTodos} todos={todos} />
     </React.Fragment>
   );
 }
