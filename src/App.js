@@ -27,9 +27,24 @@ function App() {
         break;
     }
   };
+  const saveLocalTodos = () => {
+    localStorage.setItem("todos", JSON.stringify(todos));
+  };
+  const getLocalTodos = () => {
+    if (localStorage.getItem("todos") === null) {
+      localStorage.setItem("todos", JSON.stringify([]));
+    } else {
+      let todoLocal = localStorage.getItem("todos", JSON.stringify(todos));
+      setTodos(todoLocal);
+    }
+  };
   useEffect(() => {
     filterHandler();
+    saveLocalTodos();
   }, [todos, status]);
+  useEffect(() => {
+    getLocalTodos();
+  });
 
   return (
     <React.Fragment>
