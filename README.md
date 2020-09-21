@@ -8,6 +8,6 @@
 
 > **3.** Now go to your Chrome extensions page (in Chrome or Brave) and then toggle **on** Developer Mode.
 
-> **4.* Click `Load unpacked` and go to the `todo-extensions` folder and then click the `build` folder.
+> **4.** Click `Load unpacked` and go to the `todo-extensions` folder and then click the `build` folder.
 
 Good to go 👍
