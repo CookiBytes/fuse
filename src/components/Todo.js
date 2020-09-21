@@ -8,14 +8,14 @@ const Todo = ({ text, todo, todos, setTodos }) => {
   };
   const completedHandler = () => {
     setTodos(
-      todos.map((item) => {
-        if (item.id === todo.id) {
+      todos.map((element) => {
+        if (element.id === todo.id) {
           return {
-            ...item,
-            completed: !item.completed,
+            ...element,
+            completed: !element.completed,
           };
         }
-        return item;
+        return element;
       })
     );
   };

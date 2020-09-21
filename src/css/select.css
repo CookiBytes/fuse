@@ -9,8 +9,7 @@ select {
   font-family: "Quicksand", sans-serif;
   cursor: pointer;
   width: 12rem;
-  text-transform: uppercase;
-  letter-spacing: 5px;
+  font-size: 18px;
 }
 
 select {
