@@ -8,13 +8,28 @@ import "./css/form.css";
 import "./css/select.css";
 
 function App() {
-  // Variables
   const [inputText, setInputText] = useState("");
   const [todos, setTodos] = useState([]);
   const [status, setStatus] = useState("all");
   const [filteredTodos, setFilteredTodos] = useState([]);
 
-  // Handler(s)
+  // Save to Load
+  const saveLocalTodos = () => {
+    localStorage.setItem("todos", JSON.stringify(todos));
+  };
+  const getLocalTodo = () => {
+    if (localStorage.getItem("todos") === null) {
+      localStorage.setItem("todos", JSON.stringify([]));
+    } else {
+      let todoLocal = JSON.parse(localStorage.getItem("todos"));
+      setTodos(todoLocal);
+    }
+  };
+  useEffect(() => {
+    getLocalTodo();
+  });
+
+  // Filter
   const filterHandler = () => {
     switch (status) {
       case "completed":
@@ -30,26 +45,10 @@ function App() {
         break;
     }
   };
-  // const saveLocalTodos = () => {
-  //   localStorage.setItem("todos", JSON.stringify(todos));
-  // };
-  // const getLocalTodos = () => {
-  //   if (localStorage.getItem("todos") === null) {
-  //     localStorage.setItem("todos", JSON.stringify([]));
-  //   } else {
-  //     let todoLocal = JSON.parse(localStorage.getItem("todos"));
-  //     setTodos(todoLocal);
-  //   }
-  // };
-
-  // Use(s)
   useEffect(() => {
     filterHandler();
-    // saveLocalTodos();
+    saveLocalTodos();
   }, [todos, status]);
-  // useEffect(() => {
-  //   getLocalTodos();
-  // });
 
   return (
     <React.Fragment>
