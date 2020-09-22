@@ -1,6 +1,7 @@
 {
   "short_name": "Fuse",
   "name": "Fuse - ToDo Chrome Extension",
+  "description": "A user-friendly to-do extension for Chrome.",
   "icons": {
     "16": "favicon.ico",
     "48": "logo192.png",
