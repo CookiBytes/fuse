@@ -19,12 +19,15 @@ This might be published in the web store so you won't have to follow the Documen
 # Can & Can't
 
 ✔ Save your to-do's (in the Application)
+
 ✔ Trash your to-do's
+
 ✔ Complete and uncomplete
+
 ✔ View complete, uncomplete, and all tasks (with a filter)
 
-✖ Edit your to-do's (maybe in V2)
-✖ Untrash
+❌ Edit your to-do's (maybe in V2)
+❌ Untrash
 
 
 # Documentation
