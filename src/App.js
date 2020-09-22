@@ -8,6 +8,7 @@ import "./css/form.css";
 import "./css/select.css";
 
 function App() {
+  // Variables
   const [inputText, setInputText] = useState("");
   const [todos, setTodos] = useState([]);
   const [status, setStatus] = useState("all");
@@ -27,7 +28,7 @@ function App() {
   };
   useEffect(() => {
     getLocalTodo();
-  });
+  }, []);
 
   // Filter
   const filterHandler = () => {
