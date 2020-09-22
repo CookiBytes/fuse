@@ -1,14 +1,18 @@
-**fuse** is a modern-themed to-do Chrome Extension.
+**Version 1.0.0**
 
-# Images (Preview)
+# Content
+This README is divided into 3 sections:
 
-![All](images/img1.PNG)
+1. About
 
-![Complete](images/img2.PNG)
+2. Documentation
 
-![Completed](images/img3.PNG)
+3. Images (Preview)
 
-![Uncompleted](images/img4.PNG)
+# About
+> **Fuse** is a modern, user-friendly to-do Chrome extension.
+
+This might be published in the web store so you won't have to follow the Documentation. However, if you want to customize Fuse, you can follow the steps below.
 
 # Documentation
 
@@ -21,3 +25,14 @@
 > **Step 4.** Click `Load unpacked` and go to the `todo-extension` folder and then click the `build` folder.
 
 Good to go 👍
+
+
+# Images (Preview)
+
+![All](images/img1.PNG)
+
+![Complete](images/img2.PNG)
+
+![Completed](images/img3.PNG)
+
+![Uncompleted](images/img4.PNG)
