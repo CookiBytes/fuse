@@ -10,7 +10,11 @@ body {
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   color: white;
   font-family: "Quicksand", sans-serif;
-  min-height: 100vh;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 300px;
+  max-height: 300px;
+  /* min-height: 100vh; */
 }
 
 h1 {
