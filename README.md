@@ -1,18 +1,31 @@
 **Version 1.0.0**
 
 # Content
-This README is divided into 3 sections:
+This README is divided into 4 sections:
 
 1. About
 
-2. Documentation
+2. Can & Can't
 
-3. Images (Preview)
+3. Documentation
+
+4. Images
 
 # About
 > **Fuse** is a modern, user-friendly to-do Chrome extension.
 
 This might be published in the web store so you won't have to follow the Documentation. However, if you want to customize Fuse, you can follow the steps below.
+
+# Can & Can't
+
+✔ Save your to-do's (in the Application)
+✔ Trash your to-do's
+✔ Complete and uncomplete
+✔ View complete, uncomplete, and all tasks (with a filter)
+
+✖ Edit your to-do's (maybe in V2)
+✖ Untrash
+
 
 # Documentation
 
@@ -27,7 +40,7 @@ This might be published in the web store so you won't have to follow the Documen
 Good to go 👍
 
 
-# Images (Preview)
+# Images
 
 ![All](images/img1.PNG)
 
