@@ -27,6 +27,7 @@ This might be published in the web store so you won't have to follow the Documen
 ✔ View complete, uncomplete, and all tasks (with a filter)
 
 ❌ Edit your to-do's (maybe in V2)
+
 ❌ Untrash
 
 
