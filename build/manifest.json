@@ -1,17 +1,16 @@
 {
   "short_name": "Fuse",
-  "name": "Fuse - ToDo Chrome Extension",
-  "description": "A user-friendly to-do extension for Chrome.",
+  "name": "Fuse - ToDo Extension",
+  "description": "A user-friendly to-do extension.",
   "icons": {
-    "16": "favicon.ico",
-    "48": "logo192.png",
-    "128": "logo512.png"
+    "16": "logo.ico",
+    "128": "logo.png"
   },
   "permissions": [],
   "manifest_version": 2,
   "version": "0.0.1",
   "browser_action": {
     "default_popup": "index.html",
-    "default_title": "Fuse - ToDo Chrome Extension"
+    "default_title": "Fuse - ToDo Extension"
   }
 }

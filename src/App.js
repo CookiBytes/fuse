@@ -54,7 +54,7 @@ function App() {
   return (
     <React.Fragment>
       <header>
-        <h1>fuse</h1>
+        <h1>tasks</h1>
       </header>
       <Form
         inputText={inputText}
