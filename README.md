@@ -1,5 +1,4 @@
-# Updates coming soon
-Still at version one, Tokkey will soon be updated in maybe April or May 2021.
+Tokkey will soon be updated in maybe April or May 2021.
 
 # About
 Tokkey is a to-do list extension for browsers like Chrome, Brave, etc. Tokkey has a nice, colourful UI with a yellowish-orange theme.
